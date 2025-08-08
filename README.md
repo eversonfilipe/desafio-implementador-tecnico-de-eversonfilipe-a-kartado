@@ -4,6 +4,8 @@ Bem-vindo(a)! Este repositório foi criado para registrar minha participação n
 
 ---
 
+> P.S.: Este documento foi originalmente feito no GitHub. Mas para melhor visualização <br> por parte dos recrutadores, ele estará adaptado também para Google Drive.
+
 ## 👤 Sobre mim
 
 Meu nome é **Éverson Filipe Campos da Silva Moura**. Fui aprovado na etapa de entrevista do processo seletivo da Kartado, o que renovou meu entusiasmo para contribuir com soluções inovadoras e crescer junto à equipe.
