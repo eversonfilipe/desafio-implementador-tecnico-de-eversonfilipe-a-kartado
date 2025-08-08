@@ -1,0 +1,48 @@
+{
+  "formulario": [
+    {
+      "id": 1,
+      "apiName": "codigo_identificacao",
+      "displayName": "Código de Identificação",
+      "dataType": "string"
+    },
+    {
+      "id": 2,
+      "apiName": "comprimento",
+      "displayName": "Comprimento (m)",
+      "dataType": "float"
+    },
+    {
+      "id": 3,
+      "apiName": "largura",
+      "displayName": "Largura (m)",
+      "dataType": "float"
+    },
+    {
+      "id": 4,
+      "apiName": "espessura",
+      "displayName": "Espessura (cm)",
+      "dataType": "float"
+    },
+    {
+      "id": 5,
+      "apiName": "area",
+      "displayName": "Área (m²)",
+      "dataType": "float",
+      "logic": {"*": [{"var": "comprimento"}, {"var": "largura"}]}
+    },
+    {
+      "id": 6,
+      "apiName": "volume",
+      "displayName": "Volume (m³)",
+      "dataType": "float",
+      "logic": {"*": [{"var": "comprimento"}, {"var": "largura"}, {"/": [{"var": "espessura"}, 100]}]}
+    },
+    {
+      "id": 7,
+      "apiName": "observacoes",
+      "displayName": "Observações",
+      "dataType": "string"
+    }
+  ]
+}
