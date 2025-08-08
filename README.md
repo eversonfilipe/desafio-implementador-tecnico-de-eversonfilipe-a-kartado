@@ -40,6 +40,7 @@ Para facilitar a avaliação e consulta, organizei o repositório da seguinte fo
 - **`/documentos-importantes/testes-e-credenciais`**: Informações adicionais sobre mim, como currículo, _assestments_, etc.
 - **`/respostas-desafios`**: O código das soluções do desafio. Testadas em minha máquina.
 > <i> Caso vá testar a função Python, certifique de que sua IDE está configurada para os padrões UTF-8.</i>
+- **`/SHOWME.pptx`**: _(ainda em construção)_
 
 ---
 
