@@ -1,6 +1,6 @@
 import json
 
-with open("formulario.json", "r") as file:
+with open("formulario.json", "r", encoding="utf-8") as file:
     formulario_existente = json.load(file)
 
 def adicionar_campo(formulario_existente, campo_novo):
