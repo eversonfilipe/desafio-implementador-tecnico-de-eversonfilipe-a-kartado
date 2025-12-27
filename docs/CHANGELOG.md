@@ -8,6 +8,7 @@ Esta versão marca a transição do repositório de um ambiente de submissão pr
 
 ### Added
 - **Documentação Bilíngue:** Inclusão do `README-EN.md` para acessibilidade internacional do portfólio.
+- **Modificação de Descrição:** Modificação da descrição geral do repositório para sincronismo ás atualizações.
 - **Badges de Tech Stack:** Implementação de indicadores visuais de tecnologia no cabeçalho da documentação.
 - **Guia de Execução:** Seção detalhada de "Como Testar" para facilitar a revisão por pares.
 
