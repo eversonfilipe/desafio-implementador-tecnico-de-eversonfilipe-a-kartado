@@ -8,6 +8,7 @@ This version marks the transition of the repository from a private submission en
 
 ### Added
 - **Bilingual Documentation:** Inclusion of `README-EN.md` for the international accessibility of the portfolio.
+- **Description Update:** Modification of the general repository description to synchronize with recent updates.
 - **Tech Stack Badges:** Implementation of visual technology indicators in the documentation header.
 - **Execution Guide:** Detailed "How to Test" section to facilitate peer review.
 
