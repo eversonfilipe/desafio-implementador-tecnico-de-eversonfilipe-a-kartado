@@ -1,72 +1,66 @@
-# 🚀 Desafio Técnico Kartado | Éverson Filipe Campos da Silva Moura
+# 🚀 Desafio Técnico - Implementador Técnico | Kartado
 
-Bem-vindo(a)! Este repositório foi criado para registrar minha participação no processo seletivo para estágio na Kartado, reunindo pesquisas, aprendizados e respostas aos desafios técnicos propostos.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JSON](https://img.shields.io/badge/json-5E5E5E?style=for-the-badge&logo=json&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Windsurf](https://img.shields.io/badge/Windsurf-4B0082?style=for-the-badge&logo=windsurf&logoColor=white)
 
----
+Este repositório apresenta a solução desenvolvida para o desafio técnico de Implementador Técnico na **Kartado**. O projeto foca na manipulação de estruturas de dados dinâmicas, validação de esquemas JSON e implementação de lógicas de cálculo aplicadas à engenharia de infraestrutura.
 
-> P.S.: Este documento foi originalmente feito no GitHub. Mas para melhor visualização <br> por parte dos recrutadores, ele estará adaptado também para Google Drive.
+## 🚀 O Projeto
 
-## 👤 Sobre mim
+O objetivo central foi criar uma solução robusta para a gestão de formulários técnicos. A solução permite a expansão dinâmica de campos, garantindo a integridade dos dados e a automação de cálculos complexos através de uma abordagem sistêmica.
 
-Meu nome é **Éverson Filipe Campos da Silva Moura**. Fui aprovado na etapa de entrevista do processo seletivo da Kartado, o que renovou meu entusiasmo para contribuir com soluções inovadoras e crescer junto à equipe.
+## 🧠 Decisões Técnicas & Visão Sistêmica
 
-Agora, estou aqui neste repositório para nutrir a etapa de "Desafio" do processo seletivo. Permitindo que a equipe não veja apenas meu código como também, minha **visão sistêmica** e **capacidade de resolver problemas.**
+A arquitetura da solução foi pensada para ser escalável e de fácil manutenção:
 
-> <i><q>Para edição de código, estarei utilizando a ferramenta Cursor e Windsurf, <br>
-  e também o terminal padrão para visualização e interação dos flucos, como recomendado. <br>
-  Para formatação do repositório no Github, estarei usando GitHub Copilot. Permitindo evolução e modularização do código. <br>
-  **P.S.: ESTE REPOSITÓRIO ESTÁ PRIVADO! APENAS PESSOAS COM LINK SÃO CAPAZES DE ACESSAR**</q></i>
+* **Manipulação de JSON**: Utilização da biblioteca nativa do Python para garantir performance e compatibilidade.
+* **Gestão de Identificadores (IDs)**: Implementação de lógica de auto-incremento dinâmico para novos campos, baseando-se no maior ID existente para evitar conflitos.
+* **Lógica de Negócio (JSONLogic)**: O formulário foi estruturado para suportar operações matemáticas complexas (como cálculos de Área e Volume) integradas diretamente no esquema do dado, permitindo que a inteligência do cálculo resida na definição do campo.
+* **Validação Rigorosa**: A função de inserção verifica a presença obrigatória de atributos críticos (`displayName`, `apiName` e `dataType`) antes de qualquer operação de escrita.
 
----
+## 🛠️ Tech Stack
 
-Sou movido por desafios, pela busca constante por conhecimento e pela aplicação prática de habilidades técnicas e analíticas. Este projeto reflete meu compromisso com a excelência, organização, visão sistêmica e capacidade de aprender rapidamente.
+* **Linguagem Principal:** Python 3.x
+* **Formatos de Dados:** JSON / JSONLogic
+* **IDE & Ferramentas de IA:** Cursor, Windsurf e GitHub Copilot para modularização e refatoração de código.
+* **Padronização:** Codificação UTF-8 para suporte a caracteres especiais em campos de exibição.
 
----
+## 📂 Estrutura do Repositório
 
-## 🎯 Propósito deste repositório
+* **`/respostas-desafios`**: Contém o núcleo da solução técnica.
+    * `adicionar_campo.py`: Script Python com a lógica de manipulação e validação de formulários.
+    * `formulario.json`: Estrutura de dados representando um formulário técnico com lógicas de cálculo.
+* **`/documentos-importantes`**: Documentação técnica detalhando as decisões de design e fluxos de dados.
 
-Este espaço foi criado para:
+## ⚙️ Como Testar a Solução
 
-- **Documentar minhas pesquisas e estudos** relacionados ao desafio técnico.
-- **Registrar as respostas e soluções** para cada etapa do processo seletivo.
-- **Demonstrar minhas competências técnicas, analíticas e organizacionais**.
-- **Compartilhar aprendizados** que possam agregar ao time Kartado e à comunidade.
+Para validar a função de adição de campos, certifique-se de ter o Python instalado e siga os passos:
 
----
+1.  Navegue até a pasta de desafios:
+    ```bash
+    cd respostas-desafios
+    ```
+2.  Execute o script de teste:
+    ```bash
+    python adicionar_campo.py
+    ```
 
-## 🗂️ Guia de navegação
+O script realizará a leitura do `formulario.json`, validará os dados de entrada e inserirá um novo campo no início da lista, mantendo a integridade dos IDs.
 
-Para facilitar a avaliação e consulta, organizei o repositório da seguinte forma:
+## 🌟 Diferenciais Implementados
 
-- **`/documentos-importantes`**: Documentação detalhada das soluções e decisões técnicas.
-- **`/documentos-importantes/testes-e-credenciais`**: Informações adicionais sobre mim, como currículo, _assestments_, etc.
-- **`/respostas-desafios`**: O código das soluções do desafio. Testadas em minha máquina.
-> <i> Caso vá testar a função Python, certifique de que sua IDE está configurada para os padrões UTF-8.</i>
-- **`/SHOWME.pptx`**: _(ainda em construção)_
-
----
-
-> Sinta-se à vontade para explorar cada pasta conforme o seu interesse.
-
----
-
-## 🌟 Destaques e diferenciais
-
-- **Entusiasmo e preparo**: Aprovado na 1a entrevista, reforçando minha sintonia com a cultura e objetivos da Kartado.
-- **Organização e clareza**: Estrutura sistemática, facilitando a análise do progresso e das entregas.
-- **Visão analítica e crítica**: Todas as decisões e soluções são fundamentadas e explicadas.
-- **Proatividade**: Pesquisa adicional e registro de aprendizados que vão além do mínimo exigido.
-- **Compromisso com resultado**: Foco em entregar valor real ao desafio e à equipe.
+* **Modularização**: Código limpo e funções com responsabilidade única.
+* **Tratamento de Erros**: Verificações de tipo e existência de chaves para prevenir falhas em tempo de execução.
+* **Documentação**: Código documentado com *docstrings* seguindo padrões profissionais.
 
 ---
 
 ## 📞 Contato
 
-Fique à vontade para entrar em contato para dúvidas ou feedbacks:
-
-- **E-mail:** [eversonfilipe124@gmail.com]
-- **LinkedIn:** [https://www.linkedin.com/in/eversonfilipe-agile-products-ai/]
+**Éverson Filipe Campos da Silva Moura** 📧 [eversonfilipe124@gmail.com](mailto:eversonfilipe124@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/eversonfilipe-agile-products-ai/)
 
 ---
-
-Agradeço pela oportunidade e atenção! Estou à disposição para contribuir e aprender mais com a equipe Kartado.
+*Este projeto foi desenvolvido como parte do processo seletivo da Kartado, demonstrando competências técnicas em Python e parametrização de sistemas.*
